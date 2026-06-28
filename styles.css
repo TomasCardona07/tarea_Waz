@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.content{
+    border: 2px solid rgb(0, 213, 255);
+    border-radius: 25px;
+    width: 400px;
+    height: 220px;
+    margin-top: 250px;
+    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px 10px rgb(89, 205, 255);
+}
+h1{
+    position: absolute;
+    margin-top: 5px;
+    color: aqua;
+}
+.content_email{
+    height: 20px;
+    width: 200px;
+    margin-top: 80px;
+    margin-right: 30px;
+    background-color: black;
+    border-top:none;
+    border-left: none;
+    border-color: rgb(95, 228, 255) ;
+    color: aqua;
+    box-shadow: 0 0 900px 1px rgb(89, 205, 255);
+
+}
+.content_password{
+    height: 20px;
+    width: 200px;
+    margin-top: 120px;
+    margin-right: 30px;
+    position: absolute;
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-color: rgb(95, 228, 255);
+    color: aqua;
+}
+.content_registrarse{
+    position: absolute;
+    height: 25px;
+    width: 80px;
+    margin-top: 175px;
+    background-color:black;
+    color: aqua;
+    border: 2px solid aqua;
+}
